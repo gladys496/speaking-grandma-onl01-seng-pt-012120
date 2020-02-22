@@ -13,16 +13,16 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 speak_to_grandma = "I love you grandma!".upcase
-
-if speak_to_grandma == "I love you grandma!".upcase
+def speak_to_grandma (phrase)
+if phrase == "I love you grandma!".upcase
   return "I love you too pumpkin!".upcase
- elsif speak_to_grandma == "Hi Nana, how are you?"
+ elsif phrase == "Hi Nana, how are you?"
  return  "Huh?! Speak up, Sonny!".upcase
- elsif speak_to_grandma == "Hi!"
+ elsif phrase == "Hi!"
  return"Huh?! Speak up, Sonny!".upcase
- elsif speak_to_grandma == "What did you eat today?".upcase
+ elsif phrase == "What did you eat today?".upcase
    return "No, not since 1938!".upcase
-  else speak_to_grandma == "WHAT?" 
+  else phrase == "WHAT?" 
     return "No, not since 1938!".upcase
   end 
 end 
