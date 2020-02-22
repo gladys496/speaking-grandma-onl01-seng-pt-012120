@@ -15,7 +15,7 @@
 speak_to_grandma = "I love you grandma!".upcase
 
 if speak_to_grandma == "I love you grandma."
-  puts "HUH?! SPEAK UP, SONNY!"
+  return "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma == "I said, I love you grandma!".upcase
   puts "HUH?! SPEAK UP, SONNY!"
 elsif speak_to_grandma == "Can you hear me?!".upcase
