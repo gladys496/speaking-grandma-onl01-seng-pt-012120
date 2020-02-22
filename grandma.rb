@@ -12,6 +12,8 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+speak_to_grandma = "I love you grandma!".upcase
+
 if speak_to_grandma == "I love you grandma!".upcase
   puts "I love you too pumpkin!".upcase
  elsif speak_to_grandma == "Hi Nana, how are you?"
@@ -24,5 +26,5 @@ if speak_to_grandma == "I love you grandma!".upcase
     puts "No, not since 1938!".upcase
   end 
   
-  speak_to_grandma = "I love you grandma!".upcase
+  
   
