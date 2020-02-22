@@ -12,3 +12,9 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
+if speak_to_grandma == "I love you grandma!".upcase
+  puts "I love you too pumpkin!".upcase
+ elsif speak_to_grandma == "Hi Nana, how are you?"
+ puts "Huh?! Speak up, Sonny!".upcase
+ elsif speak_to_grandma == "Hi!"
+ puts "Huh?! "
